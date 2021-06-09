@@ -11,8 +11,8 @@ console.log("n = " + n);
 let i = 0;
 let sum = 0;
 for (; i < n ; i ++){
-    let i = readlineSync.question("Enter the new number : ");
+    let newNum = readlineSync.question("Enter the new number : ");
     
-    sum =  sum + parseInt(i);  // convert i to Integer
+    sum =  sum + parseInt(newNum);  // convert i to Integer
 }
 console.log("La somme est : " + sum);
